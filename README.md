@@ -1,6 +1,6 @@
 # WheatherModuleByBahadir
-- Npm module for finding the wheather conditions.
-- 
+- Npm module for finding population and wheather conditions of a particular country's capital city.
+
 # Built With
 - JavaScript
 - NodeJS
