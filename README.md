@@ -9,7 +9,7 @@
 > Axios (for HTTP operations) and Yargs (Command-Line Modifier)
 
 ## Usage
--npm i wheathermodulebybahadir
+- npm i wheathermodulebybahadir
 
 # Authors
 - Bahadır Ünal [Profile](https://github.com/ZeroToHero2) 👍
