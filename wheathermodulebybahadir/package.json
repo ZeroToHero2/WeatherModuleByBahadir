@@ -1,0 +1,43 @@
+{
+  "_from": "wheathermodulebybahadir@1.1.0",
+  "_id": "wheathermodulebybahadir@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-LZ15YyxuyCsVw2Ct9F97zapjLO3gWj2VEW2IyyKxR6bLP9j9eD5SItzIViucEtyOb/1agJFNLuJEWYwArAkSGA==",
+  "_location": "/wheathermodulebybahadir",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "wheathermodulebybahadir@1.1.0",
+    "name": "wheathermodulebybahadir",
+    "escapedName": "wheathermodulebybahadir",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wheathermodulebybahadir/-/wheathermodulebybahadir-1.1.0.tgz",
+  "_shasum": "ea122cf663fddb92767aa104d8a513ecfa8be07b",
+  "_spec": "wheathermodulebybahadir@1.1.0",
+  "_where": "C:\\Users\\BAHADIR\\.vscode\\MyProjects\\myModuleTest",
+  "author": {
+    "name": "bahadır"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "yargs": "^17.1.1"
+  },
+  "deprecated": false,
+  "description": "TrialModule",
+  "license": "ISC",
+  "main": "app.js",
+  "name": "wheathermodulebybahadir",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
