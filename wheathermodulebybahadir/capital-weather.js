@@ -7,9 +7,9 @@ function findCapitalWeather(countryName) {
             const country = response.data[0];
             const capital = country.capital;
             const population = country.population;
-            const enlem = country.latlng[0];
-            const boylam = country.latlng[1];
-            console.log(`Nüfus: ${population} Enlem: ${enlem} Boylam: ${boylam} ve Başkent: ${capital}`);
+            const latitude = country.latlng[0];
+            const longitude = country.latlng[1];
+            console.log(`Nüfus: ${population} Enlem: ${latitude} Boylam: ${longitude} ve Başkent: ${capital}`);
 
             axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + capital + '&appid=5ed44540179cb2edfe474066645eac57&lang=tr&units=metric')
                 .then(res => {
@@ -22,9 +22,7 @@ function findCapitalWeather(countryName) {
 module.exports = findCapitalWeather;
 
 
-
-
-//HTTPS ile GET ISTEGI
+//With HTTPS
 /*https.get('https://restcountries.eu/rest/v2/name/turkey', (response) => {
     let data = '';
     response.on('data', chunk => {
@@ -34,7 +32,7 @@ module.exports = findCapitalWeather;
         const jsonData = JSON.parse(data);
         if (jsonData[0] != null)
             console.log(jsonData[0].timezones[0]);
-            else console.log("Veri Getirilemedi.");
+            else console.log("Data could not fetched.");
     });
 
 }).on('error', (err) => {
